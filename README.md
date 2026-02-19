@@ -31,12 +31,7 @@ type Work = {
     ParentId: EntityId  // -> DsSystem
 }
 
-// 하향 탐색: 쿼리 함수 사용
-let works = Query.worksOf systemId store
 
-// 상향 탐색: ParentId로 O(1) 조회
-let system = Query.systemOfWork work store
-```
 
 ### 설계 원칙
 
