@@ -1,6 +1,6 @@
 # DS Core
 
-DS(Digital Sequence) 시스템의 핵심 도메인 모델 라이브러리입니다.
+DS(Dualsoft) 시스템의 핵심 도메인 모델 라이브러리입니다.
 
 ## Domain Model
 
@@ -52,3 +52,4 @@ let system = Query.systemOfWork work store
 ## License
 
 [MIT](LICENSE)
+
